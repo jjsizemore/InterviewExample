@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using InterviewExample.services;
 using InterviewExample.models;
+using FluentAssertions;
 
 namespace InterviewExample
 {
@@ -43,8 +44,9 @@ namespace InterviewExample
             {
                 int user = r.Next(USER_COUNT);
                 int postCount = postService.getPostCount(user.ToString());
-                Console.WriteLine(user);
-                Assert.IsTrue(postCount > 0, user.ToString());
+                Console.WriteLine($"User {user}: {postCount} posts");
+                // Assert.IsTrue(postCount > 0, user.ToString());
+                postCount.Should().BeGreaterThan(0, $"User {user} is expected to have at least 1 post");
             }
         }
     }

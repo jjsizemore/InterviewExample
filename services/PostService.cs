@@ -36,7 +36,18 @@ namespace InterviewExample.services
 		public void Setup(int userCount, int postsPerUserCount)
 		{
 			CreateTable();
-			for (int i = 0; i < userCount * postsPerUserCount; i++)
+			int i = 0;
+			while (i < userCount)
+            {
+				Put(new Post()
+				{
+					id = i,
+					userId = i,
+					subject = RandomString(10)
+				});
+				i++;
+            }
+			while (i < userCount * postsPerUserCount)
 			{
 				Put(new Post()
 				{
@@ -44,6 +55,7 @@ namespace InterviewExample.services
 					userId = random.Next(userCount),
 					subject = RandomString(10)
 				});
+				i++;
 			}
 		}
 

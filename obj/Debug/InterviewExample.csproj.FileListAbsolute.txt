@@ -11,3 +11,11 @@
 \\Mac\Home\Downloads\InterviewExample\obj\Debug\InterviewExample.csproj.CopyComplete
 \\Mac\Home\Downloads\InterviewExample\obj\Debug\InterviewExample.dll
 \\Mac\Home\Downloads\InterviewExample\obj\Debug\InterviewExample.pdb
+\\Mac\Home\Downloads\InterviewExample\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+\\Mac\Home\Downloads\InterviewExample\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+\\Mac\Home\Downloads\InterviewExample\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+\\Mac\Home\Downloads\InterviewExample\bin\Debug\FluentAssertions.dll
+\\Mac\Home\Downloads\InterviewExample\bin\Debug\System.ValueTuple.dll
+\\Mac\Home\Downloads\InterviewExample\bin\Debug\FluentAssertions.pdb
+\\Mac\Home\Downloads\InterviewExample\bin\Debug\FluentAssertions.xml
+\\Mac\Home\Downloads\InterviewExample\bin\Debug\System.ValueTuple.xml
