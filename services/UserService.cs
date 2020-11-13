@@ -13,6 +13,16 @@ using InterviewExample.models;
 // i.e. select * from users where UserId = " + txtUserId; 
 // If we let txtUserId = 105 OR 1=1, a hacker could get all rows, potentially including all usernames and passwords
 
+// May also be of value to set id as primary key
+// i.e. id INTEGER NOT NULL PRIMARY KEY
+// Could also just use rowid and not have an id column. 
+// When a table is created with a PK, this column is the alias of the rowid column
+
+// Specifying column names that values are being added into would also be a good idea
+// i.e. INSERT INTO user	(username, email, created)
+//				 VALUES		(@username, @email, @created)
+// ^ assumes we do not add to ID b/c it's autoincrementing PK, and we use SQLiteParameters
+// with names @username, @email, @created
 
 namespace InterviewExample.services
 {

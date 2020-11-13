@@ -13,6 +13,11 @@ using System.Threading.Tasks;
 // i.e. select * from users where UserId = " + txtUserId; 
 // If we let txtUserId = 105 OR 1=1, a hacker could get all rows, potentially including all usernames and passwords
 
+// May also be of value to set id as primary key
+// i.e. id INTEGER NOT NULL PRIMARY KEY
+// Could also just use rowid and not have an id column. 
+// When a table is created with a PK, this column is the alias of the rowid column
+
 namespace InterviewExample.services
 {
     class PostService : BaseService
