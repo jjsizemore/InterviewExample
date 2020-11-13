@@ -6,6 +6,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Instead of using concatenation, create SQLiteParameter objects and add them to the command,
+// then execute the command using these.
+
+// SQL Injection could destroy the DB and opens up vulerabilities.
+// i.e. select * from users where UserId = " + txtUserId; 
+// If we let txtUserId = 105 OR 1=1, a hacker could get all rows, potentially including all usernames and passwords
+
 namespace InterviewExample.services
 {
     class PostService : BaseService
