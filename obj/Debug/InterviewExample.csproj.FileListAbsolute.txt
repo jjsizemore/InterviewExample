@@ -1,0 +1,13 @@
+\\Mac\Home\Downloads\InterviewExample\bin\Debug\InterviewExample.dll
+\\Mac\Home\Downloads\InterviewExample\bin\Debug\InterviewExample.pdb
+\\Mac\Home\Downloads\InterviewExample\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+\\Mac\Home\Downloads\InterviewExample\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+\\Mac\Home\Downloads\InterviewExample\bin\Debug\System.Data.SQLite.dll
+\\Mac\Home\Downloads\InterviewExample\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+\\Mac\Home\Downloads\InterviewExample\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+\\Mac\Home\Downloads\InterviewExample\bin\Debug\System.Data.SQLite.xml
+\\Mac\Home\Downloads\InterviewExample\obj\Debug\InterviewExample.csprojAssemblyReference.cache
+\\Mac\Home\Downloads\InterviewExample\obj\Debug\InterviewExample.csproj.CoreCompileInputs.cache
+\\Mac\Home\Downloads\InterviewExample\obj\Debug\InterviewExample.csproj.CopyComplete
+\\Mac\Home\Downloads\InterviewExample\obj\Debug\InterviewExample.dll
+\\Mac\Home\Downloads\InterviewExample\obj\Debug\InterviewExample.pdb
